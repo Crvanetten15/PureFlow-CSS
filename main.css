@@ -34,31 +34,36 @@ input {
 }
 
 a {
-  padding: 10px;
-  background-color: #007bff2a;
-  border-radius: 5px;
-  backdrop-filter: blur(15px);
   text-decoration: none;
   color: #131313 ;
 }
 
 a:hover {
-  background-color: #007bffa8;
-}
-button {
-  font-size: 1.15em;
-  font-weight: 200;
-  border: none;
-  padding: 10px;
-  background-color: #007bff2a;
-  border-radius: 5px;
-  backdrop-filter: blur(15px);
-  text-decoration: none;
-  color: #131313 ;
+
 }
 
-button:hover {
-  background-color: #007bffa8;
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #000;
+  cursor: pointer;
+  border: none;
+   
+}
+
+.button:hover {
+  background-color: #333;
+}
+
+.button:active {
+  background-color: #000;
 }
 
 option {
